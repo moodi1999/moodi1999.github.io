@@ -1,11 +1,11 @@
 {
-    "name": "madresa_app",
-    "short_name": "madresa_app",
+    "name": "غرفه",
+    "short_name": "غرفه",
     "start_url": ".",
     "display": "minimal-ui",
-    "background_color": "#0175C2",
-    "theme_color": "#0175C2",
-    "description": "Online Class Management.",
+    "background_color": "#F3F4F6",
+    "theme_color": "#22E4AC",
+    "description": "غرفه",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

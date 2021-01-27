@@ -3,16 +3,20 @@
 <head>
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="description" content="Online Class Management.">
+  <meta name="description" content="غرفه پلاس">
 
   <!-- iOS meta tags & icons -->
   <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="madresa_app">
-  <link rel="apple-touch-icon" href="/icons/Icon-192.png">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="exhibition_client">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
-  <title>madresa_app</title>
-  <link rel="manifest" href="/manifest.json">
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/png" href="favicon.png"/>
+
+  <title>غرفه</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <!-- This script installs service_worker.js to provide PWA functionality to
@@ -21,10 +25,13 @@
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', function () {
-        navigator.serviceWorker.register('/flutter_service_worker.js');
+        navigator.serviceWorker.register('flutter_service_worker.js?v=1186010553');
       });
     }
   </script>
   <script src="main.dart.js" type="application/javascript"></script>
+  <div id="spinner" class="loaderContainer">
+    <div class="loader"></div>
+  </div>
 </body>
 </html>

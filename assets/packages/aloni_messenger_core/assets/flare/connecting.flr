@@ -1,0 +1,383 @@
+{
+	"version": 21,
+	"artboards": [
+		{
+			"name": "Artboard",
+			"translation": [
+				-140.66854858398438,
+				-302.03118896484375
+			],
+			"width": 478,
+			"height": 479,
+			"origin": [
+				0,
+				0
+			],
+			"clipContents": true,
+			"color": [
+				0.364705890417099,
+				0.364705890417099,
+				0.364705890417099,
+				1
+			],
+			"nodes": [
+				{
+					"name": "Ellipse",
+					"translation": [
+						250,
+						250
+					],
+					"rotation": 0,
+					"scale": [
+						1,
+						1
+					],
+					"opacity": 1,
+					"isCollapsed": false,
+					"clips": [],
+					"isVisible": true,
+					"blendMode": 3,
+					"drawOrder": 1,
+					"type": "shape"
+				},
+				{
+					"name": "Color",
+					"parent": 0,
+					"opacity": 1,
+					"color": [
+						0,
+						0.8235294222831726,
+						0.49803921580314636,
+						1
+					],
+					"width": 12,
+					"cap": 1,
+					"join": 1,
+					"trim": 1,
+					"start": 0.1,
+					"end": 0.25,
+					"offset": 0,
+					"type": "colorStroke"
+				},
+				{
+					"name": "Color",
+					"parent": 0,
+					"opacity": 1,
+					"color": [
+						1,
+						1,
+						1,
+						1
+					],
+					"fillRule": 1,
+					"type": "colorFill"
+				},
+				{
+					"name": "Ellipse Path",
+					"parent": 0,
+					"translation": [
+						0,
+						0
+					],
+					"rotation": 0,
+					"scale": [
+						1,
+						1
+					],
+					"opacity": 1,
+					"isCollapsed": false,
+					"clips": [],
+					"bones": [],
+					"isVisible": true,
+					"isClosed": true,
+					"points": [
+						{
+							"pointType": 2,
+							"translation": [
+								0,
+								-130
+							],
+							"in": [
+								-70.1401596069336,
+								-130
+							],
+							"out": [
+								70.1401596069336,
+								-130
+							]
+						},
+						{
+							"pointType": 2,
+							"translation": [
+								127,
+								0
+							],
+							"in": [
+								127,
+								-71.7970199584961
+							],
+							"out": [
+								127,
+								71.7970199584961
+							]
+						},
+						{
+							"pointType": 2,
+							"translation": [
+								0,
+								130
+							],
+							"in": [
+								70.1401596069336,
+								130
+							],
+							"out": [
+								-70.1401596069336,
+								130
+							]
+						},
+						{
+							"pointType": 2,
+							"translation": [
+								-127,
+								0
+							],
+							"in": [
+								-127,
+								71.7970199584961
+							],
+							"out": [
+								-127,
+								-71.7970199584961
+							]
+						}
+					],
+					"type": "path"
+				},
+				{
+					"name": "ic_menu_panel_type (1)",
+					"translation": [
+						250.99996948242188,
+						246.75
+					],
+					"rotation": 0,
+					"scale": [
+						1,
+						1
+					],
+					"opacity": 1,
+					"isCollapsed": false,
+					"clips": [],
+					"isVisible": true,
+					"blendMode": 3,
+					"drawOrder": 2,
+					"bones": [],
+					"atlas": 0,
+					"numVertices": 4,
+					"vertices": [
+						-52,
+						-87,
+						0.0078125,
+						0.00390625,
+						52,
+						-87,
+						0.8203125,
+						0.00390625,
+						52,
+						87,
+						0.8203125,
+						0.68359375,
+						-52,
+						87,
+						0.0078125,
+						0.68359375
+					],
+					"numTriangles": 2,
+					"triangles": [
+						0,
+						1,
+						3,
+						1,
+						2,
+						3
+					],
+					"type": "image"
+				}
+			],
+			"animations": [
+				{
+					"name": "Loading",
+					"fps": 60,
+					"duration": 1.3166666666666667,
+					"isLooping": true,
+					"keyed": [
+						{
+							"component": 0,
+							"rotation": [
+								[
+									{
+										"time": 0,
+										"interpolatorType": 1,
+										"value": 0
+									},
+									{
+										"time": 1.2833333333333334,
+										"interpolatorType": 1,
+										"value": 6.283185307179586
+									}
+								]
+							],
+							"posX": [
+								[
+									{
+										"time": 0,
+										"interpolatorType": 1,
+										"value": 239.9628143310547
+									}
+								]
+							],
+							"posY": [
+								[
+									{
+										"time": 0,
+										"interpolatorType": 1,
+										"value": 239.96282958984375
+									}
+								]
+							]
+						},
+						{
+							"component": 1,
+							"strokeWidth": [
+								[
+									{
+										"time": 0.8099650000032267,
+										"interpolatorType": 1,
+										"value": 15
+									}
+								]
+							],
+							"strokeColor": [
+								[
+									{
+										"time": 0,
+										"interpolatorType": 1,
+										"value": [
+											0,
+											0,
+											0.12156862765550613,
+											1
+										]
+									}
+								]
+							]
+						},
+						{
+							"component": 2,
+							"fillColor": [
+								[
+									{
+										"time": 0,
+										"interpolatorType": 1,
+										"value": [
+											0.09803921729326248,
+											0.16078431904315948,
+											0.27450981736183167,
+											1
+										]
+									}
+								]
+							]
+						},
+						{
+							"component": 3,
+							"pathVertices": [
+								[
+									{
+										"time": 0,
+										"interpolatorType": 1,
+										"value": [
+											0,
+											-130,
+											-70.1401596069336,
+											-130,
+											70.1401596069336,
+											-130,
+											122.53907775878906,
+											0,
+											122.53907775878906,
+											-71.79702758789062,
+											122.53907775878906,
+											71.79702758789062,
+											-2.2304840087890625,
+											127.76953125,
+											67.90968322753906,
+											127.76953125,
+											-72.37065124511719,
+											127.76953125,
+											-127,
+											0,
+											-127,
+											71.7970199584961,
+											-127,
+											-71.7970199584961
+										]
+									}
+								]
+							]
+						},
+						{
+							"component": 4,
+							"scaleX": [
+								[
+									{
+										"time": 0.9169233333513496,
+										"interpolatorType": 1,
+										"value": 0.5
+									}
+								]
+							],
+							"scaleY": [
+								[
+									{
+										"time": 0.9169233333513496,
+										"interpolatorType": 1,
+										"value": 0.5
+									}
+								]
+							],
+							"posX": [
+								[
+									{
+										"time": 0,
+										"interpolatorType": 1,
+										"value": 239
+									}
+								]
+							],
+							"posY": [
+								[
+									{
+										"time": 0,
+										"interpolatorType": 1,
+										"value": 239.5
+									}
+								]
+							]
+						}
+					],
+					"animationStart": 0,
+					"animationEnd": 1.2833333333333334,
+					"type": "animation"
+				}
+			],
+			"type": "artboard"
+		}
+	],
+	"atlases": {
+		"isOOB": false,
+		"data": [
+			"data:image/png;base64,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"
+		]
+	}
+}

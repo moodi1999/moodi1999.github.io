@@ -1,37 +1,36 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <meta charset="UTF-8">
-  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="description" content="غرفه پلاس">
-
-  <!-- iOS meta tags & icons -->
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="exhibition_client">
-  <link rel="apple-touch-icon" href="icons/Icon-192.png">
-
-  <!-- Favicon -->
-  <link rel="shortcut icon" type="image/png" href="favicon.png"/>
-
-  <title>غرفه</title>
-  <link rel="manifest" href="manifest.json">
-  <link rel="stylesheet" href="styles.css" />
+    <script src="./signalr.min.js"></script>
+    <script src="./wrapper.js"></script>
+    <script>
+        window.showSpinner = () => (document.getElementById("spinner").style = "");
+        window.hideSpinner = () => {
+            (document.getElementById("spinner").style = "display:none");
+            (document.getElementById("versionText").style = "display:none");
+        }
+        window.launch = params => console.log("messenger is still loading");
+        window.setLaunchMethod = action => {
+            window.launch = action;
+            window.onMessengerLoad();
+        };
+        window.onMessengerLoad = () => {
+            console.log("Messenger loaded");
+        };
+    </script>
+    <script src="./launcher.js"></script>
+    <meta charset="UTF-8" />
+    <title>پیام رسان</title>
+    <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
-  <!-- This script installs service_worker.js to provide PWA functionality to
-       application. For more information, see:
-       https://developers.google.com/web/fundamentals/primers/service-workers -->
-  <script>
-    if ('serviceWorker' in navigator) {
-      window.addEventListener('load', function () {
-        navigator.serviceWorker.register('flutter_service_worker.js?v=226712477');
-      });
-    }
-  </script>
-  <script src="main.dart.js" type="application/javascript"></script>
-  <div id="spinner" class="loaderContainer">
-    <div class="loader"></div>
-  </div>
+    <script src="main.dart.js" type="application/javascript"></script>
+    <div id="spinner" class="loaderContainer" style="display: none;">
+        <div class="loader"></div>
+    </div>
+    <p id="versionText" class="version">V 1.2.1</p>
 </body>
+
 </html>
